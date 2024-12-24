@@ -36,6 +36,15 @@ const data = [
     repo: 'https://github.com/WADSFinalProject/Mori_frontend',
   },
   {
+    title: 'Customer Relationship Management (CRM) and Upselling Strategies for Revenue Maximization in Telecommunications',
+    subtitle: 'Utilizing Predictive Models and Machine Learning for Optimizing Upsell Opportunities',
+    image: '/images/projects/crm_upselling_strategies.png',
+    date: '2024-12-24',
+    desc: 'This study looks at using CRM and upselling strategies to increase revenue in telecom. It uses machine learning models like XGBoost, Random Forest, and Decision Trees to predict upsell opportunities and improve customer retention. Key elements include predicting outcomes, analyzing important factors, and using data to boost revenue.',
+    technologies: ['Machine Learning', 'XGBoost', 'Random Forest', 'Decision Trees', 'Data Analytics'],
+    repo: 'https://drive.google.com/file/d/1ZBiyc0XkXs0WR3StCXBsQxc082s_TQe3/view?usp=sharing',
+  },
+  {
     title: 'Course Management System',
     subtitle: 'Data Structures and Algorithms Final Project',
     image: '/images/projects/course_management_system.png',
