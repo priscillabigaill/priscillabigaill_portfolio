@@ -1,0 +1,72 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem; 
+}
+
+.projects-grid .cell {
+  background: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content fits neatly */
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex; /* Make the cell a flex container */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Space out the content, push button/technologies to the bottom */
+}
+
+.projects-grid .cell .image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  margin-bottom: 5%;
+  overflow: hidden;
+  border-radius: 6px; /* Matches cell border-radius */
+}
+
+.projects-grid .cell .image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures consistent cropping */
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  background: #e0e0e0;
+  color: #333;
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.view-project-button {
+  display: inline-block;
+  background: #e0e0e0;
+  color: #333;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 0.5rem 0; /* Uniform spacing between button and technologies */
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.view-project-button:hover {
+  background: #d0d0d0; /* Slightly darker gray on hover */
+  color: #000; /* Slightly darker text on hover */
+}
+
