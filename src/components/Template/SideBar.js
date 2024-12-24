@@ -14,7 +14,7 @@ const SideBar = () => (
       <header>
         <h2>Hello! I’m Abigail</h2>
         <p>
-          Venture around to see some of my work. ⸜(｡˃ ᵕ ˂ )⸝♡
+          Venture around to see some of my work. ⸜ ｡♡
         </p>
         {/* <Link to="/resume" className="button">
           Resume
