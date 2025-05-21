@@ -26,9 +26,9 @@ const About = () => {
         <header>
           <div className="title">
             <h2>
-              <Link to="/about">Some things about me ₊⊹</Link>
+              <Link to="/about">Hello! ₊⊹</Link>
             </h2>
-            <p>(in about {count} words)</p>
+            <p>(some things about me in about {count} words)</p>
           </div>
         </header>
         <Markdown>{markdown}</Markdown>
